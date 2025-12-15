@@ -10,10 +10,9 @@ This project explores deep learning and machine learning approaches — specific
 ```
 Music_Genre_Classification/
 │
-├── paper/
-│   └── Springer_Differentiation_of_Music_Genre.pdf
+├── Springer_Differentiation_of_Music_Genre.pdf
 │
-├── notebooks/
+├── code/
 │   └── research_paper_updated.ipynb
 │
 ├── src/
