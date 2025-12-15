@@ -36,7 +36,8 @@ This project uses the **GTZAN Music Genre Dataset**, one of the most widely used
 - **1000 audio files**  
 - **10 genres**  
 - **30 seconds per track**  
-- `.wav` format  
+- `.wav` format
+- https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
 
 ##  Feature Extraction (MFCC)
 MFCC extraction steps include:
