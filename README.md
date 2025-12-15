@@ -27,11 +27,10 @@ Music_Genre_Classification/
 │   ├── knn_confusion_matrix.png
 │   └── metrics.json
 │
-├── requirements.txt
 └── README.md
 ```
 
-## 🎧 Dataset: GTZAN
+##  Dataset: GTZAN
 This project uses the **GTZAN Music Genre Dataset**, one of the most widely used datasets in MIR research.
 
 - **1000 audio files**  
@@ -39,7 +38,7 @@ This project uses the **GTZAN Music Genre Dataset**, one of the most widely used
 - **30 seconds per track**  
 - `.wav` format  
 
-## 🔍 Feature Extraction (MFCC)
+##  Feature Extraction (MFCC)
 MFCC extraction steps include:
 
 - Pre-emphasis  
@@ -51,9 +50,9 @@ MFCC extraction steps include:
 - DCT  
 - **13 MFCC coefficients per frame**
 
-## 🧠 Models Used
+##  Models Used
 
-### ⭐ 1. Convolutional Neural Network (CNN)
+###  1. Convolutional Neural Network (CNN)
 Architecture:
 - Conv2D(32) → MaxPool → Dropout  
 - Conv2D(64) → MaxPool → Dropout  
@@ -61,13 +60,13 @@ Architecture:
 - Dense(128) → Dropout  
 - Softmax output (10 genres)
 
-### ⭐ 2. K-Nearest Neighbors (KNN)
+###  2. K-Nearest Neighbors (KNN)
 - k = 5  
 - Normalized features  
 - GridSearchCV for tuning  
 - Euclidean & Manhattan distances  
 
-## 📊 Results
+##  Results
 
 ### **CNN**
 - Train Accuracy: **98.43%**  
@@ -76,9 +75,9 @@ Architecture:
 ### **KNN**
 - Train Accuracy: **81%**  
 - Test Accuracy: **73%**  
-- Best k: 5  
+- Best K (Hyperparameter) : 5  
 
-## ▶️ How to Run
+## How to Run
 
 ```
 git clone https://github.com/VISHAL-0805/Music_genre_classification.git
@@ -87,10 +86,10 @@ pip install -r requirements.txt
 jupyter notebook notebooks/research_paper_updated.ipynb
 ```
 
-## 🔗 Open in Google Colab
-(Add your Colab link here)
+##  Open in Google Colab
+https://colab.research.google.com/drive/1aYPfoWSbfSDYmNC4UqlwJPJyosD8ck3S?usp=sharing
 
-## 📝 Citation
+##  Citation
 ```
 Vishal Singh, Pushker Jain, Ayan Sar, Tanupriya Chowdhury, Ketan Kotecha.
 "Differentiation of Music Genre from an Audio File Using Neural Networks."
